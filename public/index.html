@@ -3,7 +3,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Streaming IP Camera Nodejs</title>
+    <title>Micronix Office Live Streaming</title>
 </head>
 <body>
    <div>
@@ -11,7 +11,7 @@
        <script type="text/javascript" src="jsmpeg.min.js"></script>
        <script type="text/javascript">
             var canvas = document.getElementById('chanel1');
-            var websocket = new WebSocket("ws://127.0.0.1:9999");
+            var websocket = new WebSocket("ws://3.20.145.213:9999");
             var player= new jsmpeg(websocket, {canvas:canvas, autoplay:true, loop:true})
        </script>
    </div>
